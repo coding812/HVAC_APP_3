@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="HVAC_APP_3.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:views="clr-namespace:HVAC_APP_3.Views"
+    xmlns:local="clr-namespace:HVAC_APP_3">
+
+    <ShellContent
+        Shell.NavBarIsVisible="true"
+        Title="Home"
+        Icon="iconblank.png"
+        ContentTemplate="{DataTemplate views:SplashPage}"
+        Route="SplashPage" />
+    <ShellContent
+        Shell.NavBarIsVisible="true"
+        Title="Capacitor Calculator"
+        Icon="iconblank.png"
+        ContentTemplate="{DataTemplate views:Cap_CalcPage}"
+        Route="Cap_CalcPage" />
+    <ShellContent
+        Shell.NavBarIsVisible="true"
+        Title="Beer Me"
+        Icon="iconblank.png"
+        ContentTemplate="{DataTemplate views:Beer_MePage}"
+        Route="Beer_MePage" />
+    <ShellContent
+        Shell.NavBarIsVisible="true"
+        Title="Contact"
+        Icon="contact.png"
+        ContentTemplate="{DataTemplate views:ContactsPage}"
+        Route="ContactsPage" />
+</Shell>
