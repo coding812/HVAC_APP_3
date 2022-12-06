@@ -2,5 +2,38 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="HVAC_APP_3.Views.Cap_CalcPage">
+    <VerticalStackLayout>
+        <Label 
+            Text="Here is a calculator to test your Capacitor under Load!"
+            FontSize="34"
+            VerticalOptions="Start" 
+            HorizontalOptions="Center" />
+
+        <Entry 
+            x:Name="amps"
+            Keyboard="Numeric"
+            Placeholder="Enter start winding AMPS" 
+            PlaceholderColor="Black" 
+            BackgroundColor="White"
+            HorizontalOptions="Center"
+            TextColor="Black"/>
+
+        <Entry 
+            x:Name= "volts"
+            Keyboard="Numeric"
+            Placeholder="Enter voltage between Common and Run" 
+            PlaceholderColor="Black" 
+            BackgroundColor="White"
+            HorizontalOptions="Center"
+            TextColor="Black"/>
+
+        <Button HorizontalOptions="Center" Text="Calculate Mfd" Clicked="Calc_Mfd"></Button>
+
+        <Label 
+            x:Name="mfd"
+            VerticalOptions="Start"
+            HorizontalOptions="Center"
+            FontSize="25"/>
+    </VerticalStackLayout>
 
 </ContentPage>
