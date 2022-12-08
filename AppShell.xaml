@@ -9,25 +9,25 @@
     <ShellContent
         Shell.NavBarIsVisible="true"
         Title="Home"
-        Icon="iconblank.png"
+        Icon="icons8_home_page_100a.png"
         ContentTemplate="{DataTemplate views:SplashPage}"
         Route="SplashPage" />
     <ShellContent
         Shell.NavBarIsVisible="true"
         Title="Capacitor Calculator"
-        Icon="iconblank.png"
+        Icon="icons8_capacitor_symbol_50a.png"
         ContentTemplate="{DataTemplate views:Cap_CalcPage}"
         Route="Cap_CalcPage" />
     <ShellContent
         Shell.NavBarIsVisible="true"
         Title="Beer Me"
-        Icon="iconblank.png"
+        Icon="icons8_beer_80a.png"
         ContentTemplate="{DataTemplate views:Beer_MePage}"
         Route="Beer_MePage" />
     <ShellContent
         Shell.NavBarIsVisible="true"
         Title="Contact"
-        Icon="contact.png"
+        Icon="icons8_contact_64a.png" 
         ContentTemplate="{DataTemplate views:ContactsPage}"
         Route="ContactsPage" />
 </Shell>
